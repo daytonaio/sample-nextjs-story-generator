@@ -9,7 +9,7 @@ This repository contains a **Book Summary Platform** built with **Next.js**, **F
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Create the Workspace**:
    ```bash
-   daytona create https://github.com/GyanPrakashK/story_tell
+   daytona create https://github.com/GyanPrakashK/sample-nextjs-story-generator
    ```
 3. **Updating the API Keys**:
 
@@ -35,11 +35,8 @@ Once the application is set up, you can access the different components at the f
 
 ## ✨ Features
 
-- **Upload Books**: Easily upload your favorite books in various formats (PDF, ePub, etc.) to the platform.
-- **AI-Powered Summaries**: Generate concise and accurate summaries of books instantly using the Gemini API.
-- **Efficient Search**: Quickly find specific books or summaries using MeiliSearch's powerful search capabilities.
-- **User-Friendly Interface**: Enjoy a modern and intuitive frontend built with Next.js for seamless navigation.
-- **Reliable Backend**: Experience a robust and scalable backend powered by FastAPI.
-- **Personal Library**: Access all your uploaded books and their summaries anytime, anywhere.
-- **Knowledge On-the-Go**: Retrieve summaries through a responsive design suitable for both desktop and mobile users.
-- **Secure Data Handling**: Ensure your data is securely stored and managed.
+- **Creative Story Generation**: Generate imaginative stories based on prompts provided by children through voice or text, powered by the Groq API.
+- **AI-Powered Creativity**:  Harness the power of advanced AI to create personalized and engaging stories that inspire young minds.
+- **Interactive Experience**: Encourage creative thinking and storytelling with an intuitive platform designed to be fun and educational for children.
+- **Personalized Storytelling**: Each story is unique, crafted to nurture curiosity and promote skill development in storytelling.
+- **User-Friendly Interface**: Enjoy a modern and interactive interface built with Next.js, providing an engaging experience for children of all ages.
