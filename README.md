@@ -29,7 +29,6 @@ Make sure to keep your API key secure and avoid sharing it publicly.
 Once the application is set up, you can access the different components at the following addresses:
 
 - **Frontend**: [http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## ✨ Features
