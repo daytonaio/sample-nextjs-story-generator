@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  /* Apply the fade-in animation */
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Apply the typing animation */
+  .typing {
+    display: inline-block;
+    overflow: hidden; /* Ensure content stays hidden until animated */
+    white-space: nowrap; /* Prevent wrapping */
+    animation: typing 2s steps(30) 1s forwards;
+    border-right: 3px solid #000; /* Simulate cursor effect */
+  }
+  

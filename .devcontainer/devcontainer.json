@@ -1,0 +1,30 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "waitFor": "onCreateCommand",
+  "containerUser": "root",
+  "remoteUser": "root",
+  "updateContentCommand": "pnpm install --unsafe-perm",
+  "postAttachCommand": "pnpm dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "DavidAnson.vscode-markdownlint",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000],
+"postCreateCommand": "sudo apt update && mkdir -p /workspaces/story_tell/node_modules && sudo chown -R root:root /workspaces/story_tell/node_modules && sudo chmod -R 777 /workspaces/story_tell/node_modules && pnpm install --unsafe-perm"
+
+
+}
